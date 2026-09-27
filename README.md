@@ -22,9 +22,10 @@
 
 ```bash
 python -m pip install sci-fakedata
+sfd demo
 ```
 
-demo：
+example：
 
 ```python
 import sci_fakedata as sfd
