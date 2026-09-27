@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sci-fakedata"
+version = "0.1.3"
+description = "NumPy synthetic data generators and numerical pattern analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "openpyxl>=3.1", "xlrd>=2.0"]
+
+[project.urls]
+Repository = "https://github.com/RiviaRammer/sci-fakedata"
+Issues = "https://github.com/RiviaRammer/sci-fakedata/issues"
+
+[project.scripts]
+sfd = "sci_fakedata.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sci_fakedata = ["datasets/*.csv", "datasets/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

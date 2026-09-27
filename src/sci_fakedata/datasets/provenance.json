@@ -1,0 +1,126 @@
+{
+  "article_title": "CHIT1-positive microglia drive motor neuron ageing in the primate spinal cord",
+  "article_url": "https://www.nature.com/articles/s41586-023-06783-1",
+  "doi": "10.1038/s41586-023-06783-1",
+  "downloaded_at": "2026-09-27",
+  "author_correction": "https://doi.org/10.1038/s41586-026-10728-9",
+  "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06783-1/MediaObjects/41586_2023_6783_MOESM5_ESM.xlsx",
+  "source_sha256": "e30c678959ec95ebf1bfdb710696e44b35c4841002d10d6a192b026c49b36dba",
+  "extended_fig3_source": {
+    "file": "raw/chit1_source_data_extended_fig3.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06783-1/MediaObjects/41586_2023_6783_MOESM11_ESM.xlsx",
+    "sha256": "05255bf545b29998c46233837e2badf9e86f41cbd38aebbb0ca34ef12fd0a7db"
+  },
+  "additional_source": {
+    "file": "raw/chit1_source_data_extended_fig5.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-023-06783-1/MediaObjects/41586_2023_6783_MOESM12_ESM.xlsx",
+    "sha256": "b83dcc528654f3777a1064b2ae6b76b07bdd5c285353e9d0661af634feaebd27"
+  },
+  "extraction": "Exact numeric values from the stated cell ranges; headers renamed. Statistical annotation columns omitted. No values fabricated or corrected.",
+  "interpretation": "Publicly discussed dataset used to demonstrate numerical screening, not a misconduct verdict. Download reflects current publisher files, not a reconstructed original version.",
+  "rights": "Article is under exclusive licence to Springer Nature. Raw publisher workbooks are local-only, excluded from Git/package. Bundled CSVs contain a small factual numerical excerpt with attribution; no article text/images are reproduced.",
+  "datasets": [
+    {
+      "file": "chit1_fig2b_1.csv",
+      "dataset_name": "Fig.2b-1",
+      "source_sheet": "Fig.2b-1",
+      "source_file": "raw/chit1_source_data_fig2.xlsx",
+      "source_excel_range": "A3:B18",
+      "column_labels": [
+        "P2RY12_negative_percent",
+        "P2RY12_positive_percent"
+      ],
+      "shape": [
+        16,
+        2
+      ],
+      "description": "P2RY12- or P2RY12+ cells of total spinal IBA1+ cells (%)",
+      "sha256": "a3531d79fe15643c84cf2b002faef4164d239405ecf7e0c07810508f9e9bed2a"
+    },
+    {
+      "file": "chit1_fig2b_2.csv",
+      "dataset_name": "Fig.2b-2",
+      "source_sheet": "Fig.2b-2",
+      "source_file": "raw/chit1_source_data_fig2.xlsx",
+      "source_excel_range": "A3:B10",
+      "column_labels": [
+        "Young",
+        "Aged"
+      ],
+      "shape": [
+        8,
+        2
+      ],
+      "description": "P2RY12+ cells of total spinal cells (%)",
+      "sha256": "829b10c51a88e99d521d0f7be5302b7bd23091671b38d5e177864503e946742a"
+    },
+    {
+      "file": "chit1_ext3f_1.csv",
+      "dataset_name": "Extended Data Fig.3f-1",
+      "source_sheet": "Extended Data Fig.3f-1",
+      "source_file": "raw/chit1_source_data_extended_fig3.xlsx",
+      "source_excel_range": "A3:B18",
+      "column_labels": [
+        "MS4A7_negative_percent",
+        "MS4A7_positive_percent"
+      ],
+      "shape": [
+        16,
+        2
+      ],
+      "description": "MS4A7- or MS4A7+ cells of total spinal IBA1+ cells (%)",
+      "sha256": "e041c10398ca00f6a06bd1dfecfc266cdb7798f541d6318131f3538bea1f880c"
+    },
+    {
+      "file": "chit1_ext3f_3.csv",
+      "dataset_name": "Extended Data Fig.3f-3",
+      "source_sheet": "Extended Data Fig.3f-3",
+      "source_file": "raw/chit1_source_data_extended_fig3.xlsx",
+      "source_excel_range": "A3:B10",
+      "column_labels": [
+        "Young",
+        "Aged"
+      ],
+      "shape": [
+        8,
+        2
+      ],
+      "description": "MS4A7-IBA1+ cells of total spinal cells (%)",
+      "sha256": "9b39382c95a1c40ba0593cb52615dfe1df44a164be34c6241894ce08c47f4f48"
+    },
+    {
+      "file": "chit1_ext3c_2.csv",
+      "dataset_name": "Extended Data Fig.3c-2",
+      "source_sheet": "Extended Data Fig.3c-2",
+      "source_file": "raw/chit1_source_data_extended_fig3.xlsx",
+      "source_excel_range": "A3:B10",
+      "column_labels": [
+        "Young",
+        "Aged"
+      ],
+      "shape": [
+        8,
+        2
+      ],
+      "description": "P2RY12-IBA1+ cells of total spinal cells (%)",
+      "sha256": "21c3c9bad8e717b33e57baf15d4dd7d5952138ffe1dbb378522e32414526eec5"
+    },
+    {
+      "file": "chit1_ext3f_2.csv",
+      "dataset_name": "Extended Data Fig.3f-2",
+      "source_sheet": "Extended Data Fig.3f-2",
+      "source_file": "raw/chit1_source_data_extended_fig3.xlsx",
+      "source_excel_range": "A3:B10",
+      "column_labels": [
+        "Young",
+        "Aged"
+      ],
+      "shape": [
+        8,
+        2
+      ],
+      "description": "MS4A7+IBA1+ cells of total spinal cells (%)",
+      "sha256": "f07e6b24920d4fa88e0160fe8fcfed8b511d97fcf159c6f5b16b6283b06ebc0c"
+    }
+  ]
+}

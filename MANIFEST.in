@@ -1,0 +1,13 @@
+include README.md
+recursive-include docs *.md
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include tools *.py
+include data/README.md
+include data/*.csv
+include data/*.json
+prune data/raw
+prune reports
+prune .venv
+prune .venv-release
+global-exclude *.py[cod]
